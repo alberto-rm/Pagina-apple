@@ -2,18 +2,20 @@
   font-family: "sfpro";
   src: url("./assets/fonts/SFPro.ttf");
 }
+$primary-color: #fff;
+$secundary-color: #f3f3f3;
 
 * {
   font-family: "sfpro";
 }
 
 body {
-  background: #f3f3f3;
+  background: $secundary-color;
 }
 
 /* Header */
 header {
-  background: #fff;
+  background: $primary-color;
 }
 
 .contenedor {
@@ -86,46 +88,40 @@ header {
   background-color: #171717;
   background-repeat: no-repeat;
   padding-top: 50px;
-}
-
-.b-header__tittle {
-  color: #fff;
-  font-size: 58px;
-  margin: 0px 5px;
-  padding: 0;
-}
-
-.b-header__text1 {
-  color: #fff;
-  font-size: 28px;
-  margin: 0px 2px;
-}
-
-.b-header__text2 {
-  color: #fff;
-  font-size: 28px;
-  margin: 0px 2px;
-}
-
-.b-header__text3 {
-  color: gray;
-  font-size: 18px;
-  margin: 2px 2px;
-  padding-bottom: 20px;
-}
-
-.b-header__a1 {
-  text-decoration: none;
-  color: #009bfb;
-  font-size: 23px;
-  margin: 15px 15px;
-}
-
-.b-header__a2 {
-  text-decoration: none;
-  color: #009bfb;
-  font-size: 23px;
-  margin: 15px 15px;
+  &__tittle {
+    color: $primary-color;
+    font-size: 58px;
+    margin: 0px 5px;
+    padding: 0;
+  }
+  &__text1 {
+    color: $primary-color;
+    font-size: 28px;
+    margin: 0px 2px;
+  }
+  &__text2 {
+    color: $primary-color;
+    font-size: 28px;
+    margin: 0px 2px;
+  }
+  &__text3 {
+    color: gray;
+    font-size: 18px;
+    margin: 2px 2px;
+    padding-bottom: 20px;
+  }
+  &__a1 {
+    text-decoration: none;
+    color: #009bfb;
+    font-size: 23px;
+    margin: 15px 15px;
+  }
+  &__a2 {
+    text-decoration: none;
+    color: #009bfb;
+    font-size: 23px;
+    margin: 15px 15px;
+  }
 }
 
 /* main */
@@ -135,45 +131,40 @@ header {
   min-height: 700px;
   background-position: center;
   background-size: 1300px;
-  background-color: #f3f3f3;
+  background-color: $secundary-color;
   background-repeat: no-repeat;
   padding-top: 50px;
   margin-bottom: 20px;
-}
-
-.c-header__tittle {
-  color: black;
-  font-size: 38px;
-  margin: 0px 5px;
-  padding: 5px;
-}
-
-.c-header__text1 {
-  color: black;
-  font-size: 18px;
-  margin: 0px 2px;
-  padding-bottom: 5px;
-}
-
-.c-header__text2 {
-  color: gray;
-  font-size: 15px;
-  margin: 2px 2px;
-  padding-bottom: 20px;
-}
-
-.c-header__a1 {
-  text-decoration: none;
-  color: #009bfb;
-  font-size: 13px;
-  margin: 15px 15px;
-}
-
-.c-header__a2 {
-  text-decoration: none;
-  color: #009bfb;
-  font-size: 13px;
-  margin: 15px 15px;
+  &__tittle {
+    color: black;
+    font-size: 38px;
+    margin: 0px 5px;
+    padding: 5px;
+  }
+  &__text1 {
+    color: black;
+    font-size: 18px;
+    margin: 0px 2px;
+    padding-bottom: 5px;
+  }
+  &__text2 {
+    color: gray;
+    font-size: 15px;
+    margin: 2px 2px;
+    padding-bottom: 20px;
+  }
+  &__a1 {
+    text-decoration: none;
+    color: #009bfb;
+    font-size: 13px;
+    margin: 15px 15px;
+  }
+  &__a2 {
+    text-decoration: none;
+    color: #009bfb;
+    font-size: 13px;
+    margin: 15px 15px;
+  }
 }
 
 /* iphone 11 pro */
@@ -187,46 +178,41 @@ header {
   background-repeat: no-repeat;
   padding-top: 50px;
   padding-bottom: 0px;
-}
-
-.d-header__tittle {
-  color: #fff;
-  font-size: 38px;
-  margin: 0px 5px;
-  padding: 5px;
-}
-
-.d-header__text1 {
-  color: #fff;
-  font-size: 18px;
-  margin: 0px 2px;
-  padding-bottom: 10px;
-}
-
-.d-header__text2 {
-  color: gray;
-  font-size: 12px;
-  margin: 2px 2px;
-  padding-bottom: 15px;
-}
-
-.d-header__a1 {
-  text-decoration: none;
-  color: #009bfb;
-  font-size: 13px;
-  margin: 15px 15px;
-}
-
-.d-header__a2 {
-  text-decoration: none;
-  color: #009bfb;
-  font-size: 13px;
-  margin: 15px 15px;
+  &__tittle {
+    color: $primary-color;
+    font-size: 38px;
+    margin: 0px 5px;
+    padding: 5px;
+  }
+  &__text1 {
+    color: $primary-color;
+    font-size: 18px;
+    margin: 0px 2px;
+    padding-bottom: 10px;
+  }
+  &__text2 {
+    color: gray;
+    font-size: 12px;
+    margin: 2px 2px;
+    padding-bottom: 15px;
+  }
+  &__a1 {
+    text-decoration: none;
+    color: #009bfb;
+    font-size: 13px;
+    margin: 15px 15px;
+  }
+  &__a2 {
+    text-decoration: none;
+    color: #009bfb;
+    font-size: 13px;
+    margin: 15px 15px;
+  }
 }
 
 /* container box */
 .container-fluid {
-  background: #fff;
+  background: $primary-color;
 }
 
 .box__img {
@@ -278,7 +264,7 @@ header {
 
 /* pie de las listas */
 .l__contact {
-  background: #f3f3f3;
+  background: $secundary-color;
   margin: 0px;
   padding: 0px;
 }
