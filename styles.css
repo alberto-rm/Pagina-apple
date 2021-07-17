@@ -1,0 +1,334 @@
+@font-face {
+    font-family: 'sfpro';
+    src: url('./assets/fonts/SFPro.ttf');
+}
+
+* {
+    font-family: 'sfpro';
+}
+
+body {
+    background: rgb(243, 243, 243);
+}
+
+/* Header */
+header {
+    background: white;
+}
+
+.contenedor {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 12px 12px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.list {
+    text-decoration: none;
+    color: lightgray;
+    margin: 0 25px 0 25px;
+    font-size: 13px;
+}
+
+.contenedor__nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0 20px 0 20px;
+}
+
+.manzana {
+    background-image: url(./img/manzana.svg);
+}
+
+.lupa {
+    background-image: url('./img/lupa.svg');
+}
+
+.cesta {
+    background-image: url('./img/cesta.svg');
+}
+
+.head__text {
+    text-align: center;
+    font-size: 15px;
+    margin: 8px;
+    padding-top: 40px;
+}
+
+.text__mini {
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* Header foto */
+
+.b__header {
+    background-image: url(./assets/img/iphone-se.jpeg);
+    text-align: center;
+    min-height: 700px;
+    background-position: center;
+    background-size: 1300px;
+    background-color: #171717;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.b__tittle {
+    color: white;
+    font-size: 58px;
+    margin: 0px 5px;
+    padding: 0;
+}
+
+.b__text1 {
+    color: white;
+    font-size: 28px;
+    margin: 0px 2px;
+}
+
+.b__text2 {
+    color: white;
+    font-size: 28px;
+    margin: 0px 2px;
+}
+
+.b__text3 {
+    color: gray;
+    font-size: 18px;
+    margin: 2px 2px;
+    padding-bottom: 20px;
+}
+
+.b__a1 {
+    text-decoration: none;
+    color: rgb(0, 155, 251);
+    font-size: 23px;
+    margin: 15px 15px;
+}
+
+.b__a2 {
+    text-decoration: none;
+    color: rgb(0, 155, 251);
+    font-size: 23px;
+    margin: 15px 15px;
+}
+
+/* main */
+.c__container {
+    background-image: url(./assets/img/iphone_11_white.jpeg);
+    text-align: center;
+    min-height: 700px;
+    background-position: center;
+    background-size: 1300px;
+    background-color: rgb(243, 243, 243);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.c__tittle {
+    color: black;
+    font-size: 38px;
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+.c__text1 {
+    color: black;
+    font-size: 18px;
+    margin: 0px 2px;
+    padding-bottom: 5px;
+}
+
+.c__text2 {
+    color: gray;
+    font-size: 15px;
+    margin: 2px 2px;
+    padding-bottom: 20px;
+}
+
+.c__a1 {
+    text-decoration: none;
+    color: rgb(0, 155, 251);
+    font-size: 13px;
+    margin: 15px 15px;
+}
+
+.c__a2 {
+    text-decoration: none;
+    color: rgb(0, 155, 251);
+    font-size: 13px;
+    margin: 15px 15px;
+}
+
+
+/* iphone 11 pro */
+
+.d__container {
+    background-image: url(./assets/img/camara_ip11.jpeg);
+    text-align: center;
+    min-height: 700px;
+    background-position: center;
+    background-size: 1200px;
+    background-color: black;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.d__tittle {
+    color: white;
+    font-size: 38px;
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+.d__text1 {
+    color: white;
+    font-size: 18px;
+    margin: 0px 2px;
+    padding-bottom: 10px;
+}
+
+.d__text2 {
+    color: gray;
+    font-size: 12px;
+    margin: 2px 2px;
+    padding-bottom: 15px;
+}
+
+.d__a1 {
+    text-decoration: none;
+    color: rgb(0, 155, 251);
+    font-size: 13px;
+    margin: 15px 15px;
+}
+
+.d__a2 {
+    text-decoration: none;
+    color: rgb(0, 155, 251);
+    font-size: 13px;
+    margin: 15px 15px;
+}
+
+/* container box */
+.container-fluid {
+    background: white;
+}
+
+.box__img {
+    width: 100%;
+    height: auto;
+    margin: 2% 0%;
+}
+
+/* parrafo */
+.container__text {
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+    margin: 5px 350px;
+    padding: 5px 0px;
+}
+
+.container__parrafo {
+    border-bottom: 1px solid #d2d2d7;
+}
+
+/* listas */
+.container__list {
+    /* color: rgb(158, 158, 158); */
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: normal;
+}
+
+.l__tittle {
+    color: black;
+}
+
+.l__list {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.l__cosas {
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+/* pie de las listas */
+.l__contact {
+    background: rgb(243, 243, 243);
+    margin: 0px;
+    padding: 0px;
+}
+
+.l__pie {
+    color: rgb(158, 158, 158);
+    margin-bottom: 1px;
+    padding-bottom: 2px;
+}
+
+.l__contact a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* footer */
+.container__foot {
+    border-top: 1px solid #d2d2d7;
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+    margin: 5px 350px;
+    padding: 5px 0px;
+}
+
+.foot__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.spain {
+    background-image: url(./assets/img/spain.svg);
+}
+
+
+.foot__nav {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.foot__list {
+    margin-right: 20px;
+    padding: 0;
+}
+
+.foot__nav a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #757575;
+    font-weight: bold;
+}
